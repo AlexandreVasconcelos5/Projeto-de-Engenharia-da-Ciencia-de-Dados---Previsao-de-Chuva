@@ -20,3 +20,4 @@
 ## Contactos
 - Nome: Alexandre Vasconcelos
 - Email: alex-0.5@hotmail.com
+- LinkedIn: https://www.linkedin.com/in/alexandre-vasconcelos-396227167/
