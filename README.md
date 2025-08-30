@@ -5,6 +5,7 @@ O foco principal deste projeto foi construir um pipeline de classificação robu
 ________________________________________
 
 ## Destaques do Projeto
+- Projeto avaliado com 18 valores, demonstrando rigor e qualidade na implementação de um pipeline end-to-end da Engenharia de Ciência de Dados.
 - Conjunto de dados real com 145.460 registos e 23 variáveis.
 - Tratamento dos valores omissos através da imputação pela moda e tratamento dos valores atípicos pelo truncamento aos valores mínimo e máximo.
 - Normalização de escala por Z-Score.
