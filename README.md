@@ -1,0 +1,2 @@
+# Projeto-de-Engenharia-da-Ciencia-de-Dados---Previsao-de-Chuva
+Projeto end-to-end de Ciência de Dados para previsão de chuva utilizando Machine Learning (145 mil registos, 23 variáveis). Inclui data profiling, pré-processamento, engenharia de variáveis, treino e avaliação de múltiplos modelos (Naïve Bayes, KNN, Árvores de Decisão, Random Forest, Gradient Boosting e MLP), com foco na métrica Sensibilidade.
