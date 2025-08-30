@@ -7,19 +7,19 @@ ________________________________________
 ## Destaques do Projeto
 - Conjunto de dados real com 145.460 registos e 23 variáveis.
 - Tratamento dos valores omissos através da imputação pela moda e tratamento dos valores atípicos pelo truncamento aos valores mínimo e máximo.
-- Normalização por Z-Score para melhorar modelos baseados em distâncias.
-- Balanceamento com SMOTE, obtendo sensibilidade até 0.99 em cenários de treino.
+- Normalização de escala por Z-Score.
+- Balanceamento: sobreamostragem por SMOTE.
 - Engenharia de Variáveis: codificação temporal, geográfica, cíclica e binária.
 - Avaliação de 6 modelos de classificação: Naïve Bayes, KNN, Árvores de Decisão, Random Forest, Gradient Boosting e Percetrão Multicamadas.
-- Análise de overfitting e generalização para cada modelo.
+- Análise de overfitting para cada modelo.
 ________________________________________
 
 ## Resultados Principais
-- KNN (k=23, distância Euclidiana) → melhor desempenho em sensibilidade = 0.82, com boa AUC.
-- Perceptrão Multicamadas (MLP, lr=0.05, 500 iterações, adaptativo) → sensibilidade = 0.76, sem sinais de overfitting.
+- KNN (k=23, distância Euclidiana) → melhor desempenho em sensibilidade (0.82), com boa AUC.
+- Percetrão Multicamadas (taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações) → sensibilidade de 0.76, sem sinais de overfitting.
 - Árvore de Decisão (entropia, profundidade=4) → recall de 0.71, modelo interpretável e de fácil explicação.
-- Variável mais relevante: Humidade_15h (forte correlação com chuva no dia seguinte).
-Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
+- Variável mais relevante: Humidade_15h (forte correlação com Chuva_Amanha).
+- Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
 
 ## Estrutura do Projeto
