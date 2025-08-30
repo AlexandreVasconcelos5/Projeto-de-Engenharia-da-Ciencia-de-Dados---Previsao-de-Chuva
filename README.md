@@ -16,7 +16,7 @@ ________________________________________
 
 ## Resultados Principais
 - Modelo de KNN (hiperparâmetros: k=23 e distância Euclidiana): melhor desempenho em sensibilidade, de 0.82, com alta exatidão e AUC.
-- Modelo de Percetrão Multicamadas (hiperparâmetros: taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações): sensibilidade de 0.76, com alta exatidão e AUC, sem sinais de overfitting.
+- Modelo de Percetrão Multicamadas (hiperparâmetros: taxa de aprendizagem escala inversa, taxa de aprendizagem = 0.05, 500 iterações): sensibilidade de 0.76, com alta exatidão e AUC, sem sinais de overfitting.
 - Variável mais relevante: Humidade_15h (forte correlação com a variável Chuva_Amanha).
 - Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema em questão, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
