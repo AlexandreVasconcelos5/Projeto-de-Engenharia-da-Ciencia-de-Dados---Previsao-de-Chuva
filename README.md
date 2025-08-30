@@ -23,7 +23,7 @@ ________________________________________
 1.	Perfilamento dos Dados → análise exploratória, valores em falta, outliers, correlações.
 2.	Preparação → imputação, normalização, balanceamento, codificação de variáveis.
 3.	Modelação → treino e validação de múltiplos algoritmos de classificação.
-4.	Avaliação → métricas (accuracy, precisão, recall, F1, AUC) e estudo de overfitting.
+4.	Avaliação → Métricas Exatidão, Sensibilidade, Precisão, AUC e F1 e estudo de overfitting.
 5.	Análise Crítica → trade-offs entre recall e precisão, explicabilidade vs desempenho.
 ________________________________________
 
