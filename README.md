@@ -1,7 +1,7 @@
 ## Projeto de Classificação de Engenharia da Ciência de Dados - Previsão de Chuva 🌧️
 
 Este projeto aplica um ciclo end-to-end de Engenharia da Ciência de Dados para prever se irá, ou não, chover no dia seguinte (variável alvo: Chuva_Amanha), com base em dados meteorológicos históricos da Austrália, durante um período de aproximadamente 8,5 anos.
-O foco principal deste projeto foi construir um pipeline de classificação robusto, desde a fase do data profiling até à fase da modelação, com especial atenção à sensibilidade, uma métrica de avaliação crítica em cenários onde é fundamental minimizar os falsos negativos (por exemplo: impacto na agricultura e na segurança pública).
+O foco principal deste projeto foi construir um pipeline de classificação robusto, desde a fase do perfilamento de dados até à fase da modelação, com especial atenção à sensibilidade, uma métrica de avaliação crítica em cenários onde é fundamental minimizar os falsos negativos (por exemplo: impacto na agricultura e na segurança pública).
 ________________________________________
 
 ## Destaques do Projeto
@@ -15,20 +15,19 @@ ________________________________________
 ________________________________________
 
 ## Resultados Principais
-- KNN (k=23, distância Euclidiana): melhor desempenho em sensibilidade (0.82), com boa AUC.
-- Percetrão Multicamadas (taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações): sensibilidade de 0.76, sem sinais de overfitting.
-- Árvore de Decisão (entropia, profundidade=4): sensibilidade de 0.71.
-- Variável mais relevante: Humidade_15h (forte correlação com Chuva_Amanha).
-- Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
+- Modelo de KNN (hiperparâmetros: k=23 e distância Euclidiana): melhor desempenho em sensibilidade, de 0.82, com alta exatidão e AUC.
+- Modelo de Percetrão Multicamadas (hiperparâmetros: taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações): sensibilidade de 0.76, com alta exatidão e AUC, sem sinais de overfitting.
+- Variável mais relevante: Humidade_15h (forte correlação com a variável Chuva_Amanha).
+- Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema em questão, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
 
 ## Estrutura do Projeto
-1.	Perfilamento dos Dados → análise exploratória, valores em falta, valores atípicos e correlações.
-2.	Pré-processamento dos Dados → imputação de valores em falta e de valores atípicos, normalização de escala e balanceamento.
+1.	Perfilamento dos Dados: análise exploratória, valores em falta, valores atípicos e correlações.
+2.	Pré-processamento dos Dados: imputação de valores em falta e de valores atípicos, normalização de escala e balanceamento.
 3.	Engenharia de Variáveis: codificação de variáveis.
-4.	Modelação → treino e validação de múltiplos algoritmos de classificação.
-5.	Avaliação → Métricas Exatidão, Sensibilidade, Precisão, AUC e F1 e estudo de overfitting.
-6.	Análise Crítica → trade-offs entre recall e precisão, explicabilidade vs desempenho.
+4.	Modelação: treino e validação de múltiplos algoritmos de classificação.
+5.	Avaliação: Métricas Exatidão, Sensibilidade, Precisão, AUC e F1 e estudo de overfitting.
+6.	Análise Crítica: trade-offs entre recall e precisão, explicabilidade vs desempenho.
 ________________________________________
 
 ## Ferramentas Utilizadas
