@@ -18,7 +18,8 @@ Resultados Principais:
 •	Variável mais relevante: Humidade_15h (forte correlação com chuva no dia seguinte).
 Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
-Estrutura do Projeto
+
+## Estrutura do Projeto
 1.	Perfilamento dos Dados → análise exploratória, valores em falta, outliers, correlações.
 2.	Preparação → imputação, normalização, balanceamento, codificação de variáveis.
 3.	Modelação → treino e validação de múltiplos algoritmos de classificação.
