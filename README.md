@@ -13,7 +13,7 @@ ________________________________________
 - Análise de overfitting e generalização para cada modelo.
 ________________________________________
 
-## Resultados Principais:
+## Resultados Principais
 •	KNN (k=23, distância Euclidiana) → melhor desempenho em sensibilidade = 0.82, com boa AUC.
 •	Perceptrão Multicamadas (MLP, lr=0.05, 500 iterações, adaptativo) → sensibilidade = 0.76, sem sinais de overfitting.
 •	Árvore de Decisão (entropia, profundidade=4) → recall de 0.71, modelo interpretável e de fácil explicação.
