@@ -1,4 +1,7 @@
-🌧️ Projeto de Classificação de Engenharia da Ciência de Dados - Previsão de Chuva
+🌧️
+
+## Projeto de Classificação de Engenharia da Ciência de Dados - Previsão de Chuva
+
 Este projeto aplica um ciclo end-to-end de Engenharia da Ciência de Dados para prever se irá, ou não, chover no dia seguinte, com base em dados meteorológicos históricos da Austrália., durante um período de aproximadamente 8,5 anos.
 O foco principal foi construir um pipeline de classificação robusto, desde o data profiling até à modelação, com especial atenção à sensibilidade, uma métrica crítica em cenários reais onde é fundamental minimizar falsos negativos (por exemplo: impacto na agricultura e na segurança pública).
 ________________________________________
