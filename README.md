@@ -25,9 +25,9 @@ ________________________________________
 1.	Perfilamento dos Dados: análise exploratória, valores em falta, valores atípicos e correlações.
 2.	Pré-processamento dos Dados: imputação de valores em falta e de valores atípicos, normalização de escala e balanceamento.
 3.	Engenharia de Variáveis: codificação de variáveis.
-4.	Modelação: treino e validação de múltiplos algoritmos de classificação.
-5.	Avaliação: Métricas Exatidão, Sensibilidade, Precisão, AUC e F1 e estudo de overfitting.
-6.	Análise Crítica: trade-offs entre recall e precisão, explicabilidade vs desempenho.
+4.	Modelação: treino e validação de 6 modelos de classificação.
+5.	Avaliação: métricas de avaliação (Exatidão, Sensibilidade, Precisão, AUC e F1), matriz de confusão e estudo de overfitting.
+6.	Análise Crítica.
 ________________________________________
 
 ## Ferramentas Utilizadas
