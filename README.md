@@ -7,7 +7,7 @@ Destaques do Projeto:
 - Tratamento dos valores omissos através da imputação pela moda e tratamento dos valores atípicos pelo truncamento aos valores mínimo e máximo.
 - Normalização por Z-Score para melhorar modelos baseados em distâncias.
 - Balanceamento com SMOTE, obtendo sensibilidade até 0.99 em cenários de treino.
-- Feature Engineering: codificação temporal, geográfica, cíclica e binária.
+- Engenharia de Variáveis: codificação temporal, geográfica, cíclica e binária.
 - Avaliação de 6 modelos de classificação: Naïve Bayes, KNN, Árvores de Decisão, Random Forest, Gradient Boosting e Percetrão Multicamadas.
 - Análise de overfitting e generalização para cada modelo.
 ________________________________________
