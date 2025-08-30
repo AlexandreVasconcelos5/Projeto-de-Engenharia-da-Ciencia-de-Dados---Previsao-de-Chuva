@@ -3,7 +3,7 @@ Este projeto aplica um ciclo end-to-end de Engenharia da Ciência de Dados para 
 O foco principal foi construir um pipeline de classificação robusto, desde o data profiling até à modelação, com especial atenção à sensibilidade, uma métrica crítica em cenários reais onde é fundamental minimizar falsos negativos (por exemplo: impacto na agricultura e na segurança pública).
 ________________________________________
 
-## Destaques do Projeto:
+## Destaques do Projeto
 - Conjunto de dados real com 145.460 registos e 23 variáveis.
 - Tratamento dos valores omissos através da imputação pela moda e tratamento dos valores atípicos pelo truncamento aos valores mínimo e máximo.
 - Normalização por Z-Score para melhorar modelos baseados em distâncias.
