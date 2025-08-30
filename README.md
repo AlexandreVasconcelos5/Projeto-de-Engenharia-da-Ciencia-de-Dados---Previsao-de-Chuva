@@ -15,9 +15,9 @@ ________________________________________
 ________________________________________
 
 ## Resultados Principais
-- KNN (k=23, distância Euclidiana) → melhor desempenho em sensibilidade (0.82), com boa AUC.
-- Percetrão Multicamadas (taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações) → sensibilidade de 0.76, sem sinais de overfitting.
-- Árvore de Decisão (entropia, profundidade=4) → recall de 0.71, modelo interpretável e de fácil explicação.
+- KNN (k=23, distância Euclidiana): melhor desempenho em sensibilidade (0.82), com boa AUC.
+- Percetrão Multicamadas (taxa de aprendizagem adaptativa, taxa de aprendizagem = 0.05, 500 iterações): sensibilidade de 0.76, sem sinais de overfitting.
+- Árvore de Decisão (entropia, profundidade=4): sensibilidade de 0.71.
 - Variável mais relevante: Humidade_15h (forte correlação com Chuva_Amanha).
 - Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
