@@ -11,14 +11,14 @@ Destaques do Projeto:
 - Avaliação de 6 modelos de classificação: Naïve Bayes, KNN, Árvores de Decisão, Random Forest, Gradient Boosting e Percetrão Multicamadas.
 - Análise de overfitting e generalização para cada modelo.
 ________________________________________
-📊 Resultados Principais:
+Resultados Principais:
 •	KNN (k=23, distância Euclidiana) → melhor desempenho em sensibilidade = 0.82, com boa AUC.
 •	Perceptrão Multicamadas (MLP, lr=0.05, 500 iterações, adaptativo) → sensibilidade = 0.76, sem sinais de overfitting.
 •	Árvore de Decisão (entropia, profundidade=4) → recall de 0.71, modelo interpretável e de fácil explicação.
 •	Variável mais relevante: Humidade_15h (forte correlação com chuva no dia seguinte).
 Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais adequados para o problema, maximizando a deteção correta dos dias chuvosos, ainda que com uma taxa considerável de falsos positivos.
 ________________________________________
-📂 Estrutura do Projeto
+Estrutura do Projeto
 1.	Perfilamento dos Dados → análise exploratória, valores em falta, outliers, correlações.
 2.	Preparação → imputação, normalização, balanceamento, codificação de variáveis.
 3.	Modelação → treino e validação de múltiplos algoritmos de classificação.
