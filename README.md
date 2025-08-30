@@ -22,7 +22,7 @@ Conclusão: os modelos de KNN e Percetrão Multicamadas mostraram-se ser os mais
 ________________________________________
 
 ## Estrutura do Projeto
-1.	Perfilamento dos Dados → análise exploratória, valores em falta, outliers, correlações.
+1.	Perfilamento dos Dados → análise exploratória, valores em falta, valores atípicos, correlações.
 2.	Preparação → imputação, normalização, balanceamento, codificação de variáveis.
 3.	Modelação → treino e validação de múltiplos algoritmos de classificação.
 4.	Avaliação → Métricas Exatidão, Sensibilidade, Precisão, AUC e F1 e estudo de overfitting.
