@@ -1,0 +1,5 @@
+Copyright (c) 2025 Alexandre Vaz Marques Vasconcelos. Todos os direitos reservados.
+
+Este repositório foi criado exclusivamente para fins de demonstração de um projeto de IA Generativa e Engenharia de Dados.
+
+É permitido visualizar o conteúdo, mas **nenhuma parte do código, dados ou relatórios pode ser copiada, modificada ou distribuída sem autorização explícita** do autor.
