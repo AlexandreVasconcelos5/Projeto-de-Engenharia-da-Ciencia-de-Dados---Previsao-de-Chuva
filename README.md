@@ -19,7 +19,7 @@ ________________________________________
 
 ## Resultados Principais
 - Modelo KNN (Hiperparâmetros: k=23 e Distância Euclidiana): obteve o melhor desempenho na métrica sensibilidade (0.82), mantendo valores elevados nas métricas exatidão e AUC, permitindo mitigar riscos ao maximizar a deteção de chuva.
-- Modelo de Percetrão Multicamadas / MLP (Hiperparâmetros: Taxa de Aprendizagem Escala Inversa, Taxa de Aprendizagem = 0.05 e 500 Iterações): alcançou uma sensibilidade de 0.76, com alta exatidão e AUC, apresentando uma excelente capacidade de generalização e ausência de overfitting,
+- Modelo de Percetrão Multicamadas / MLP (Hiperparâmetros: Taxa de Aprendizagem Escala Inversa, Taxa de Aprendizagem = 0.05 e 500 Iterações): alcançou uma sensibilidade de 0.76, com alta exatidão e AUC, apresentando uma excelente capacidade de generalização e ausência de overfitting.
 - Variável mais relevante: Humidade_15h (forte correlação com a variável Chuva_Amanha).
 - Conclusão: os modelos KNN e MLP revelaram-se os mais adequados para o problema em questão, maximizando a deteção correta dos dias chuvosos. Esta abordagem é ideal para cenários como a agricultura ou a realização de eventos, onde o custo de um falso negativo (não prever chuva quando ela ocorre) é significativamente superior ao de um falso positivo.
 ________________________________________
