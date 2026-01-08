@@ -43,8 +43,8 @@ ________________________________________
 ________________________________________
 
 ## Conteúdos do Repositório
-- Jupyter Notebook - Projeto - Engenharia da Ciência de Dados - Conjunto de Dados Chuva - Alexandre Vasconcelos.ipynb - Código do projeto
-- Relatório PDF - Projeto - Engenharia da Ciência de Dados - Conjunto de Dados Chuva - Alexandre Vasconcelos.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
+- Engenharia_Ciencia_Dados_Previsao_Chuva.ipynb - Código do projeto
+- Engenharia_Ciencia_Dados_Previsao_Chuva.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
 ________________________________________
 
 ## Como Visualizar os Resultados
