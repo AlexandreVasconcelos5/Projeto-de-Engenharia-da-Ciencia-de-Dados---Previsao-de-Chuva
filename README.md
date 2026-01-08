@@ -48,9 +48,10 @@ ________________________________________
 ________________________________________
 
 ## Como Visualizar os Resultados
-1. Clonar o repositório
-2. Abrir no Jupyter Notebook o ficheiro `.ipynb`
-3. Executar as células por ordem para reproduzir a análise
+1. Clonar o repositório.
+2. Instalar as seguintes dependências: pip install -r requirements.txt
+3. Abrir o ficheiro .ipynb no Jupyter Notebook.
+4. Executar as células por ordem para reproduzir a análise
 ________________________________________
 
 ## Contactos
