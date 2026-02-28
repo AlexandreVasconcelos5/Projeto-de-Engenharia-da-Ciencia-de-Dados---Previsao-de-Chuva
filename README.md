@@ -8,10 +8,10 @@ This project implements an end-to-end Data Science Engineering lifecycle to pred
 ________________________________________
 
 ## 💡Project Highlights:
-- Modelo KNN (Hiperparâmetros: k=23 e Distância Euclidiana): obteve o melhor desempenho na métrica sensibilidade (0.82), mantendo valores elevados nas métricas exatidão e AUC, permitindo mitigar riscos ao maximizar a deteção de chuva.
-- Modelo de Percetrão Multicamadas / MLP (Hiperparâmetros: Taxa de Aprendizagem Escala Inversa, Taxa de Aprendizagem = 0.05 e 500 Iterações): alcançou uma sensibilidade de 0.76, com alta exatidão e AUC, apresentando uma excelente capacidade de generalização e ausência de overfitting.
-- Variável mais relevante: Humidade_15h (forte correlação com a variável Chuva_Amanha).
-- Conclusão: os modelos KNN e MLP revelaram-se os mais adequados para o problema em questão, maximizando a deteção correta dos dias chuvosos. Esta abordagem é ideal para cenários como a agricultura ou a realização de eventos, onde o custo de um falso negativo (não prever chuva quando ela ocorre) é significativamente superior ao de um falso positivo.
+- KNN Model (k=23, Euclidean Distance): Achieved peak performance with a 0.82 recall score, while maintaining high accuracy and AUC. This configuration effectively mitigates operational risk by maximizing rainfall detection.
+- Multi-Layer Perceptron, MLP (Hyperparameters: Inverse Scaling, Learning Rate = 0.05, 500 Iterations): Reached a 0.76 recall score, with high accuracy and AUC, demonstrating a strong generalization and zero evidence of overfitting.
+- Most relevant feature: Humidity_3pm, showing a strong correlation with the target variable RainTomorrow.
+- Conclusion: KNN and MLP models proved to be the most effective for this use case, maximizing the detection of rainy days. This approach is ideal for sectors such as agriculture or event management, where the cost of a false negative (failing to predict rain when it occurs) significantly outweighs a false positive.
 ________________________________________
 
 ## ⚙️ Project Structure:
