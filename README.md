@@ -33,28 +33,25 @@ ________________________________________
 6.	Análise Crítica.
 ________________________________________
 
-## Ferramentas Utilizadas
-- Jupyter Notebook
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Seaborn
+## 🛠️ Tech Stack:
+- Language: Python
+- Environment: Jupyter Notebook, Visual Studio Code
+- Libraries: Pandas, NumPy, Scikit-learn, SciPy, Matplotlib, Seaborn
 ________________________________________
 
-## Conteúdos do Repositório
-- Engenharia_Ciencia_Dados_Previsao_Chuva.ipynb - Código do projeto
-- Engenharia_Ciencia_Dados_Previsao_Chuva.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
+## 📂 Repository Structure:
+- `Engenharia_Ciencia_Dados_Previsao_Chuva.ipynb`: Full source code and implementation.
+- `Engenharia_Ciencia_Dados_Previsao_Chuva.pdf`: Detailed technical PDF report.
 ________________________________________
 
-## Como Visualizar os Resultados
-1. Clonar o repositório.
-2. Instalar as seguintes dependências: pip install -r requirements.txt .
-3. Abrir o ficheiro .ipynb no Jupyter Notebook.
-4. Executar as células por ordem para reproduzir a análise.
+## 📦 Quick Start:
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Open the `.ipynb` file in Jupyter Notebook.
+4. Execute cells sequentially to reproduce the analysis and visualizations.
 ________________________________________
 
-## Contactos
-- Nome: Alexandre Vasconcelos
+## 📩 Contacts:
+- Alexandre Vasconcelos
 - Email: alex.vasconcelos.2057@gmail.com
-- LinkedIn: https://www.linkedin.com/in/alexandre-vasconcelos-396227167/
+- LinkedIn: [linkedin.com/in/alexandre-vasconcelos-396227167/](https://www.linkedin.com/in/alexandre-vasconcelos-396227167/)
