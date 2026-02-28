@@ -2,8 +2,7 @@
 
 <img width="1722" height="826" alt="Print Screen" src="https://github.com/user-attachments/assets/e2aa0b5c-e163-438b-a6f0-4a2471d1ec4d" />
 
-Este projeto aplica um ciclo end-to-end de Engenharia da Ciência de Dados para prever a ocorrência de chuva no dia seguinte (variável alvo: Chuva_Amanha), com base em dados meteorológicos históricos da Austrália, durante um período de aproximadamente 8,5 anos. O conjunto de dados em questão é real, tendo sido retirado do Kaggle.
-O foco principal deste projeto foi construir um pipeline de classificação robusto, desde a fase do perfilamento de dados até à fase da modelação, com especial atenção dada à sensibilidade, uma métrica de avaliação crítica em cenários onde é fundamental minimizar os falsos negativos (por exemplo: impacto na agricultura e na segurança pública).
+O foco principal deste projeto foi construir um pipeline de classificação robusto, desde a fase do perfilamento de dados até à fase da modelação, com especial atenção dada à sensibilidade, uma métrica de avaliação crítica em cenários onde é fundamental minimizar os falsos negativos (por exemplo: impacto na agricultura e na segurança pública). The core objective was to engineer a robust classification pipeline, spanning from data profiling to advanced modeling. A primary focus was placed on optimizing recall - a critical metric in scenarios where minimizing false negatives is vital to mitigate risks in sectors such as agriculture, public safety, and event management.
 ________________________________________
 
 ## 🔍 Project Overview:
