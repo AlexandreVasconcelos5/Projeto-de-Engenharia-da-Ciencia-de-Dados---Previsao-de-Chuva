@@ -4,14 +4,7 @@
 ________________________________________
 
 ## 🔍 Project Overview:
-- Projeto avaliado com 18 valores, demonstrando rigor e qualidade na implementação de um pipeline end-to-end da Engenharia de Ciência de Dados.
-- Conjunto de dados real com 145.460 registos e 23 variáveis.
-- Tratamento dos valores omissos através da imputação pela moda e tratamento dos valores atípicos pelo truncamento aos valores mínimo e máximo.
-- Normalização de escala por Z-Score.
-- Balanceamento: sobreamostragem por SMOTE.
-- Engenharia de Variáveis: codificação temporal, geográfica, cíclica e binária.
-- Avaliação de 6 modelos de classificação: Naïve Bayes, KNN, Árvores de Decisão, Random Forest, Gradient Boosting e Percetrão Multicamadas.
-- Análise de overfitting para cada modelo.
+This project implements an end-to-end Data Science Engineering lifecycle to predict next-day rainfall (target variable: Rain_Tomorrow), leveraging 8.5 years of historical meteorological data from Australia. The analysis is based on a real-world dataset sourced from Kaggle. The core objective was to engineer a robust classification pipeline, spanning from data profiling to advanced modeling. A primary focus was placed on optimizing recall - a critical metric in scenarios where minimizing false negatives is vital to mitigate risks in sectors such as agriculture, public safety, and event management.
 ________________________________________
 
 ## 💡Project Highlights:
