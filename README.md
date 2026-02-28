@@ -1,8 +1,6 @@
 ## Predictive Intelligence for Resource Risk Management: Rainfall Forecasting Pipeline 🌧️
 
 <img width="1722" height="826" alt="Print Screen" src="https://github.com/user-attachments/assets/e2aa0b5c-e163-438b-a6f0-4a2471d1ec4d" />
-
-O foco principal deste projeto foi construir um pipeline de classificação robusto, desde a fase do perfilamento de dados até à fase da modelação, com especial atenção dada à sensibilidade, uma métrica de avaliação crítica em cenários onde é fundamental minimizar os falsos negativos (por exemplo: impacto na agricultura e na segurança pública). The core objective was to engineer a robust classification pipeline, spanning from data profiling to advanced modeling. A primary focus was placed on optimizing recall - a critical metric in scenarios where minimizing false negatives is vital to mitigate risks in sectors such as agriculture, public safety, and event management.
 ________________________________________
 
 ## 🔍 Project Overview:
