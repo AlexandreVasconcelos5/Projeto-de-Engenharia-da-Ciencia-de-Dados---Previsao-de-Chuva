@@ -1,4 +1,4 @@
-## Projeto de Classificação de Engenharia da Ciência de Dados - Previsão de Chuva 🌧️
+## Predictive Intelligence for Resource Risk Management: Rainfall Forecasting Pipeline 🌧️
 
 <img width="1722" height="826" alt="Print Screen" src="https://github.com/user-attachments/assets/e2aa0b5c-e163-438b-a6f0-4a2471d1ec4d" />
 
